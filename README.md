@@ -1,10 +1,17 @@
 # Hey Puma 100
 
+
+## Configuration
+
 ```bash
-# bundle exec rackup
-bundle exec puma
-curl -v http://127.0.0.1:9292
+puma --help
+
+# printing the puma config
+PUMA_LOG_CONFIG=1 puma
 ```
+
+
+
 
 
 
