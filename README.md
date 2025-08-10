@@ -1,6 +1,14 @@
 # Hey Puma 100
 
 
+配置|备注
+---|---
+threads|线程数 5个
+port|端口: 3000
+environment|运行环境
+workers|进程数
+preload_app!|预加载
+on_worker_boot|
 
 
 ## Ref
