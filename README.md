@@ -9,6 +9,13 @@ environment|运行环境
 workers|进程数
 preload_app!|预加载
 on_worker_boot|
+pidfile|
+
+## History
+
+* [Omit workers and preload_app! from Puma config](https://github.com/rails/rails/commit/471ab2347fc8941ead6d9f95ef32c6686d706924)
+* [Increasing Puma's worker timeout in development](https://github.com/rails/rails/commit/b43ede6b9d4dd88300dbe541a61108d86ff11a32)
+* [Drop the before_fork/on_worker_boot advice](https://github.com/rails/rails/commits/155065e037377bc8ae2d7295ba5b6bdf2233827d/railties/lib/rails/generators/rails/app/templates/config/puma.rb.tt?after=155065e037377bc8ae2d7295ba5b6bdf2233827d+34)
 
 
 ## Ref
